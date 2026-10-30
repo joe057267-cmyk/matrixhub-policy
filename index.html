@@ -3,62 +3,354 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MatrixHub 隐私政策 / Privacy Policy</title>
-<style>
-  body{font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;max-width:860px;margin:48px auto;padding:0 20px;line-height:1.75;color:#1f2328}
-  h1{font-size:30px;margin-bottom:4px} h2{margin-top:36px;border-bottom:1px solid #e5e7eb;padding-bottom:6px}
-  .meta{color:#6b7280;font-size:14px} ul{padding-left:22px} code{background:#f3f4f6;padding:1px 5px;border-radius:4px}
-</style>
+<title>MatrixHubx 隐私政策 / Privacy Policy</title>
+<meta name="description" content="MatrixHubx 隐私政策：说明我们如何收集、使用、存储、共享与删除您的信息，以及通过 TikTok Login Kit、Share Kit、Google/YouTube API、Meta 平台获取的数据如何处理。">
+<link rel="alternate" hreflang="en" href="privacy-en.html">
+<link rel="canonical" href="https://joe057267-cmyk.github.io/matrixhub-policy/">
+<link rel="stylesheet" href="assets/policy.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"MatrixHubx","alternateName":"MatrixHubx 矩阵内容中台","url":"https://matrixhubx.com","email":"matrix@matrixhubx.com"}
+</script>
 </head>
 <body>
-<h1>MatrixHub 隐私政策</h1>
-<p class="meta">最后更新：2026-10-18 · 适用产品：MatrixHub 矩阵内容中台</p>
+<a class="skip" href="#main">跳到正文</a>
 
-<p>MatrixHub（以下简称“我们”）提供多平台内容排期、审批与发布服务。本隐私政策说明我们在您使用 MatrixHub 及连接第三方社交平台账号时，如何收集、使用、存储与保护您的信息。</p>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo" aria-hidden="true">M</span>
+    <div>
+      <strong>MatrixHubx</strong>
+      <small>矩阵内容中台</small>
+    </div>
+  </div>
+  <nav class="topnav" aria-label="文档导航">
+    <a href="./" aria-current="page">隐私政策</a>
+    <a href="terms.html">服务条款</a>
+    <a class="lang" href="privacy-en.html" hreflang="en" lang="en">English</a>
+  </nav>
+</header>
 
-<h2>1. 我们收集的信息</h2>
-<ul>
-  <li><strong>账号与登录信息</strong>：您注册 MatrixHub 时提供的邮箱、姓名（可选）；如通过第三方登录，仅接收其返回的基础身份标识与邮箱。</li>
-  <li><strong>社交平台授权信息</strong>：当您连接 Facebook、Instagram、Threads、YouTube、X、TikTok、TikTok Shop、Pinterest、LinkedIn、Reddit、Telegram 等平台时，平台会向我们发放 OAuth 访问令牌（access token）与刷新令牌（refresh token），以及您选择授权的账号/主页/频道基本信息。</li>
-  <li><strong>内容与运营数据</strong>：您上传的图文、视频、排期计划、审批记录；以及平台返回的发布结果与公开互动指标（如曝光、点赞、评论数）。</li>
-  <li><strong>技术日志</strong>：IP、浏览器类型、操作时间、错误日志，用于安全审计与故障排查。</li>
-</ul>
+<div class="shell">
+  <aside class="toc" aria-label="目录">
+    <p>目录</p>
+    <ol>
+      <li><a href="#s1">适用范围与运营主体</a></li>
+      <li><a href="#s2">我们收集的信息</a></li>
+      <li><a href="#s3">使用目的与法律依据</a></li>
+      <li><a href="#s4">第三方平台授权数据</a></li>
+      <li><a href="#s4-2">TikTok Login Kit 与 Share Kit</a></li>
+      <li><a href="#s4-3">Google 与 YouTube API</a></li>
+      <li><a href="#s4-4">Meta 平台</a></li>
+      <li><a href="#s5">Cookie 与本地存储</a></li>
+      <li><a href="#s6">共享与披露</a></li>
+      <li><a href="#s7">存储、安全与保留</a></li>
+      <li><a href="#s8">您的权利</a></li>
+      <li><a href="#s9">未成年人</a></li>
+      <li><a href="#s10">国际传输</a></li>
+      <li><a href="#s11">政策更新</a></li>
+      <li><a href="#s12">联系我们</a></li>
+      <li><a href="#s13">附录：平台与权限</a></li>
+    </ol>
+  </aside>
 
-<h2>2. 信息的使用方式</h2>
-<ul>
-  <li>代表您向已授权的平台账号发布经您审批通过的内容；</li>
-  <li>读取您已授权账号的数据以生成统计报表；</li>
-  <li>维护登录状态、刷新令牌、发送服务通知；</li>
-  <li>保障系统安全、排查故障与防范滥用。</li>
-</ul>
+  <main id="main" class="doc">
+    <p class="eyebrow">Legal · Privacy</p>
+    <h1>MatrixHubx 隐私政策</h1>
+    <p class="meta">生效日期：2026-10-28 · 最后更新：2026-10-28 · 版本 2.0</p>
 
-<h2>3. 信息共享与披露</h2>
-<p>我们<strong>不会出售</strong>您的个人信息。仅在以下情形共享：经您明确授权向对应社交平台调用接口；为提供服务所必需的基础设施供应商（云主机、对象存储），受保密与数据处理协议约束；法律法规要求或应有权机关要求。</p>
+    <p class="lead">MatrixHubx（矩阵内容中台，以下简称“我们”）提供多平台内容排期、审批、发布与数据分析服务。本政策说明我们在您访问 MatrixHubx 网站、使用 MatrixHubx 应用，以及连接第三方社交平台账号时，如何收集、使用、存储、共享与删除您的信息。</p>
 
-<h2>4. 数据存储与安全</h2>
-<ul>
-  <li>OAuth 令牌经加密存储于服务端，访问受最小权限与审计日志约束；</li>
-  <li>传输使用 HTTPS/TLS；</li>
-  <li>我们<strong>不会索取或保存</strong>您社交平台的账号密码。</li>
-</ul>
+    <div class="callout">
+      <p><strong>TikTok 用户请先阅读：</strong>本产品通过 <strong>TikTok Login Kit</strong> 与 <strong>Share Kit</strong> 获取和传输数据。我们如何收集、存储、使用及删除您的 TikTok 用户数据（包括 OpenID、头像、昵称等），在第 4.2 节逐项说明。我们不会在未经您确认的情况下自动发布内容，也不会出售 TikTok 数据或将其用于广告画像。</p>
+    </div>
 
-<h2>5. 数据保留与删除</h2>
-<ul>
-  <li>令牌在授权有效期内保留；您可在 MatrixHub 中断开某平台账号，我们将删除对应令牌；</li>
-  <li>您可发送邮件至 <a href="mailto:joe057267@gmail.com">joe057267@gmail.com</a> 请求导出或删除您的数据，我们将在 30 天内处理。</li>
-</ul>
+    <details class="toc-mobile">
+      <summary>查看目录</summary>
+      <ol>
+        <li><a href="#s1">适用范围与运营主体</a></li>
+        <li><a href="#s2">我们收集的信息</a></li>
+        <li><a href="#s3">使用目的与法律依据</a></li>
+        <li><a href="#s4">第三方平台授权数据</a></li>
+        <li><a href="#s4-2">TikTok Login Kit 与 Share Kit</a></li>
+        <li><a href="#s4-3">Google 与 YouTube API</a></li>
+        <li><a href="#s4-4">Meta 平台</a></li>
+        <li><a href="#s5">Cookie 与本地存储</a></li>
+        <li><a href="#s6">共享与披露</a></li>
+        <li><a href="#s7">存储、安全与保留</a></li>
+        <li><a href="#s8">您的权利</a></li>
+        <li><a href="#s9">未成年人</a></li>
+        <li><a href="#s10">国际传输</a></li>
+        <li><a href="#s11">政策更新</a></li>
+        <li><a href="#s12">联系我们</a></li>
+        <li><a href="#s13">附录：平台与权限</a></li>
+      </ol>
+    </details>
 
-<h2>6. 第三方平台条款</h2>
-<p>您连接第三方平台时，同时受该平台的服务条款与隐私政策约束。我们仅按您授予的权限范围调用接口。</p>
+    <h2 id="s1">1. 适用范围与运营主体</h2>
+    <p>本政策适用于 MatrixHubx 提供的网站、Web 应用、移动端页面、接口（API）及相关服务（以下统称“本服务”）。本服务由 MatrixHubx 运营团队（以下简称“我们”）运营。</p>
+    <p>本政策不适用于第三方社交平台、支付机构或其他第三方独立向您提供的服务。您在这些平台上的信息处理行为，适用其各自的隐私政策与用户协议。我们建议您在使用前阅读对应平台的条款。</p>
+    <p>如您代表企业或其他组织使用本服务，您确认已获得该组织的授权，可以代表其同意本政策。</p>
 
-<h2>7. 儿童隐私</h2>
-<p>MatrixHub 不面向 16 岁以下未成年人，我们不会有意收集其个人信息。</p>
+    <h2 id="s2">2. 我们收集的信息</h2>
+    <p>我们遵循最小必要原则，仅为实现下列功能收集信息。您可以拒绝提供非必需信息，但这可能影响相应功能的使用。</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>类别</th><th>具体内容</th><th>是否必需</th><th>用途</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>账号与身份</td>
+            <td>电子邮箱、昵称或姓名（可选）、密码哈希、界面语言、时区</td>
+            <td>邮箱与密码为必需</td>
+            <td>注册、登录、身份识别、账户安全</td>
+          </tr>
+          <tr>
+            <td>团队与权限</td>
+            <td>工作区名称、成员角色、审批记录</td>
+            <td>使用团队功能时必需</td>
+            <td>多人协作、权限控制、审计</td>
+          </tr>
+          <tr>
+            <td>第三方平台授权</td>
+            <td>OAuth 访问令牌与刷新令牌、平台账号标识、授权范围（scope）、令牌有效期</td>
+            <td>连接平台时必需</td>
+            <td>代表您发布内容、读取已授权数据</td>
+          </tr>
+          <tr>
+            <td>内容与排期</td>
+            <td>您上传的图文、视频、文案、话题标签、排期计划、审批意见、模板</td>
+            <td>使用发布功能时必需</td>
+            <td>存储草稿、执行排期、完成发布</td>
+          </tr>
+          <tr>
+            <td>发布结果与指标</td>
+            <td>平台返回的帖子 ID、永久链接、发布状态、曝光/点赞/评论等公开或已授权指标</td>
+            <td>否</td>
+            <td>展示发布结果与统计报表</td>
+          </tr>
+          <tr>
+            <td>设备与日志</td>
+            <td>IP 地址、浏览器类型与版本、操作系统、访问时间、请求 ID、错误日志</td>
+            <td>自动收集</td>
+            <td>安全审计、故障排查、防滥用</td>
+          </tr>
+          <tr>
+            <td>账单信息</td>
+            <td>套餐、订单号、发票信息、支付渠道返回的交易状态；我们不存储完整银行卡号</td>
+            <td>付费时必需</td>
+            <td>计费、开票、售后</td>
+          </tr>
+          <tr>
+            <td>客服沟通</td>
+            <td>您发送的邮件、工单内容及其中提供的证明材料</td>
+            <td>否</td>
+            <td>回应咨询、处理争议</td>
+          </tr>
+          <tr>
+            <td>本地偏好</td>
+            <td>语言、主题、侧栏状态等保存在浏览器 localStorage 的设置</td>
+            <td>否</td>
+            <td>记住您的使用偏好</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>我们不会主动收集您的身份证件、生物识别信息、精确位置、通讯录或社交平台私信内容。若某项功能确需额外信息，我们会在使用前单独说明并征得您的同意。</p>
 
-<h2>8. 政策更新与联系方式</h2>
-<p>本政策更新时将在本页面公布。如有疑问或投诉，请联系：<a href="mailto:joe057267@gmail.com">joe057267@gmail.com</a>。</p>
+    <h2 id="s3">3. 使用目的与法律依据</h2>
+    <p>我们仅为下列目的处理您的信息：</p>
+    <ul>
+      <li>创建与维护账户、验证身份、保持登录状态；</li>
+      <li>在您完成审批后，通过平台官方接口代您发布内容；</li>
+      <li>读取您已授权账号的数据，生成发布记录与统计报表；</li>
+      <li>提供客服支持、处理争议与数据请求；</li>
+      <li>保障服务安全，检测异常登录、滥用与攻击；</li>
+      <li>计费、开票与履行税务等法定义务；</li>
+      <li>以汇总或匿名方式改进产品功能与稳定性。</li>
+    </ul>
+    <p>在适用欧盟或英国《通用数据保护条例》（GDPR）时，我们的法律依据包括：履行与您之间的合同、我们的合法利益（保障服务安全与改进产品）、您的同意（如非必需 Cookie 或可选数据），以及遵守法律义务。您可以随时撤回同意，但不影响撤回前已进行的处理。</p>
+    <p><strong>我们不会出售您的个人信息，也不会将您的个人信息用于跨站行为广告。</strong>未经您的同意，我们不会将您的私有内容用于训练面向公众的通用人工智能模型；仅在您主动使用 AI 功能时，我们才会为生成结果处理相关内容。</p>
 
-<hr>
-<h2>English Summary</h2>
-<p>MatrixHub is a multi-platform content scheduling and publishing service. We collect your account email, OAuth tokens granted by social platforms you connect (Facebook, Instagram, Threads, YouTube, X, TikTok, TikTok Shop, Pinterest, LinkedIn, Reddit, Telegram), the content you upload, and technical logs. We use this data solely to publish approved content to your authorized accounts, display analytics, and secure the service. We never sell personal data and never store your social platform passwords. Tokens are encrypted at rest. You may disconnect any platform or request data export/deletion at joe057267@gmail.com; requests are handled within 30 days. Contact: joe057267@gmail.com.</p>
+    <h2 id="s4">4. 第三方平台授权数据</h2>
+
+    <h3 id="s4-1">4.1 授权机制</h3>
+    <p>当您连接社交平台账号时，我们使用该平台提供的官方 OAuth 授权流程。您将被引导至平台页面，由您选择授予哪些权限。我们只获得您明确同意的范围，<strong>不会索取或保存您的平台账号密码</strong>。授权令牌在服务端加密存储，并受最小权限与审计日志约束。</p>
+
+    <h3 id="s4-2">4.2 TikTok Login Kit 与 Share Kit</h3>
+    <p><strong>本产品通过 TikTok Login Kit 与 Share Kit 获取和传输数据。我们如何收集、存储、使用及删除您的 TikTok 用户数据（包括 OpenID、头像、昵称等），如下所述。</strong></p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>数据项</th><th>来源</th><th>用途</th><th>是否必需</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>OpenID（<code>open_id</code>）</td><td>Login Kit</td><td>唯一标识您的 TikTok 账号，完成 MatrixHubx 账号绑定</td><td>必需</td></tr>
+          <tr><td>UnionID（<code>union_id</code>，如平台返回）</td><td>Login Kit</td><td>在同一开发者下的多应用间识别同一账号</td><td>视授权范围</td></tr>
+          <tr><td>头像（<code>avatar_url</code>）</td><td>Login Kit</td><td>在账号列表中展示，便于您辨认</td><td>必需</td></tr>
+          <tr><td>昵称（<code>display_name</code>）</td><td>Login Kit</td><td>在账号与发布记录中展示</td><td>必需</td></tr>
+          <tr><td>个人主页链接（<code>profile_deep_link</code>）</td><td>Login Kit</td><td>从 MatrixHubx 跳转到您的 TikTok 主页</td><td>可选</td></tr>
+          <tr><td>简介、认证状态、粉丝数、关注数、获赞数、视频数</td><td>Login Kit（资料与统计权限）</td><td>展示账号概况与统计</td><td>可选</td></tr>
+          <tr><td>公开视频列表及视频元数据</td><td>Login Kit（视频列表权限）</td><td>选择待分析或复用的内容</td><td>可选</td></tr>
+          <tr><td>您主动选择的视频、图片、文案与话题</td><td>Share Kit</td><td>传输至 TikTok 客户端，由您确认后完成分享</td><td>每次由您主动触发</td></tr>
+          <tr><td>通过 Content Posting API 提交的发布内容与发布状态</td><td>TikTok Content Posting API（如已获授权）</td><td>在您审批后执行发布并回传结果</td><td>使用自动发布时必需</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <ul>
+      <li><strong>收集方式：</strong>仅在您点击“连接 TikTok”并完成授权后，通过 TikTok 官方接口获取；分享内容仅在您在界面中选择并确认后传输。</li>
+      <li><strong>使用目的：</strong>账号绑定与身份识别、展示账号信息、执行您审批通过的内容发布或分享、回传发布结果与统计。我们不会将 TikTok 数据用于广告定向、用户画像、信用评估或出售给第三方。</li>
+      <li><strong>存储：</strong>TikTok 令牌与账号标识存储于我们的服务端，令牌加密保存；访问受最小权限、双因素认证与审计日志约束。</li>
+      <li><strong>保留：</strong>在授权有效期内保留；您撤销授权或删除账号后，我们在 30 天内删除令牌与关联的 TikTok 账号数据，法律要求保留的除外。</li>
+      <li><strong>共享：</strong>我们不会出售、出租或交易您的 TikTok 用户数据；仅在为提供服务所必需的基础设施服务商（受数据处理协议约束）或法律要求时共享。我们不会将 TikTok 数据共享给广告商或数据经纪人。</li>
+      <li><strong>删除：</strong>您可以在 MatrixHubx 的“账号管理”中断开 TikTok，或发送邮件至 <a href="mailto:matrix@matrixhubx.com">matrix@matrixhubx.com</a> 请求删除。您也可以在 TikTok App 中依次进入“设置与隐私 → 安全与权限 → 管理应用权限”，撤销 MatrixHubx 的访问。我们会在核验身份后 30 天内完成删除，并同步删除由该数据衍生的账号绑定记录。</li>
+      <li><strong>不收集：</strong>我们不会收集您的 TikTok 密码、私信内容、通讯录、设备通讯录或未授权的非公开数据。</li>
+      <li><strong>自动化边界：</strong>Share Kit 的最终分享由您在 TikTok 客户端内确认；我们不会绕过客户端自动发布，也不会进行批量注册、刷量、群发私信或规避平台限流。</li>
+    </ul>
+    <p>我们对 TikTok 数据的处理同时遵守 TikTok 开发者条款与 TikTok 隐私政策。若本政策与 TikTok 的强制性要求存在冲突，以更严格者为准。</p>
+
+    <h3 id="s4-3">4.3 Google 与 YouTube API Services</h3>
+    <p>当您使用 Google 账号登录或连接 YouTube 频道时，我们仅请求您启用功能所必需的数据：</p>
+    <ul>
+      <li>基本资料（姓名、头像）与电子邮箱；</li>
+      <li>您授权频道的基本信息、视频元数据、发布状态与已授权的分析数据。</li>
+    </ul>
+    <p>我们仅将这些数据用于：验证身份并关联账户；向您授权的频道上传视频；展示分析报表；处理与 YouTube 功能相关的客服请求。我们不会将 Google 或 YouTube 用户数据出售、出租或用于广告，也不会共享给广告商或数据经纪人；仅在受保密与数据处理协议约束的基础设施服务商，或法律要求时共享。</p>
+    <p>Google 与 YouTube 数据通过 HTTPS/TLS 传输，并采用行业标准措施存储；访问权限仅限于经授权人员。令牌仅在提供服务所必需的期间保留，您撤销授权或终止账户后，我们将停止访问并在合理期限内删除或匿名化相关数据。</p>
+    <p>您可以随时在 <a href="https://myaccount.google.com/connections" rel="noopener" target="_blank">Google 账号的第三方连接页面</a>撤销授权。我们对 Google API 数据的使用的遵守 <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener" target="_blank">Google API Services User Data Policy</a>，包括 Limited Use 要求。使用 YouTube API Services 还须遵守 <a href="https://www.youtube.com/t/terms" rel="noopener" target="_blank">YouTube 服务条款</a> 与 <a href="https://policies.google.com/privacy" rel="noopener" target="_blank">Google 隐私政策</a>。</p>
+
+    <h3 id="s4-4">4.4 Meta 平台（Facebook、Instagram、Threads）</h3>
+    <p>当您连接 Meta 旗下平台时，我们通过 Meta 官方 OAuth 获取您授权的主页、Instagram 专业账号或 Threads 资料，以及发布所需的权限。我们仅按您授予的范围调用接口，用于内容发布、读取发布结果与统计。</p>
+    <p>我们遵守 Meta 平台条款与开发者政策，不会出售 Meta 用户数据，不会将其用于广告定向，也不会在您撤销授权后继续访问。您可以在 Meta 账户的“应用和网站”设置中移除 MatrixHubx，或通过第 12 节的方式联系我们删除数据。若平台提供数据删除回调，我们会在收到通知后按平台要求完成删除。</p>
+
+    <h3 id="s4-5">4.5 其他平台</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>平台</th><th>授权方式</th><th>主要数据</th><th>用途</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>X</td><td>OAuth 2.0 / OAuth 1.0a</td><td>账号标识、帖子与媒体发布结果、公开指标</td><td>发布、统计</td></tr>
+          <tr><td>LinkedIn</td><td>OAuth 2.0</td><td>个人或公司主页标识、帖子 URN、公开互动数据</td><td>发布、统计</td></tr>
+          <tr><td>Pinterest</td><td>OAuth 2.0</td><td>看板与 Pin 标识、发布结果</td><td>发布、统计</td></tr>
+          <tr><td>Reddit</td><td>OAuth 2.0</td><td>账号标识、帖子与评论 ID、公开指标</td><td>发布、统计</td></tr>
+          <tr><td>Telegram</td><td>Bot Token</td><td>频道/群标识、消息 ID、发送状态</td><td>频道发布</td></tr>
+          <tr><td>Bluesky</td><td>App Password / OAuth</td><td>DID、帖子 URI 与 CID、公开指标</td><td>发布、统计</td></tr>
+          <tr><td>TikTok Shop</td><td>店铺授权</td><td>店铺与商品标识、订单与履约状态</td><td>商品与订单管理</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 id="s4-6">4.6 撤销授权的通用方法</h3>
+    <p>您可以在 MatrixHubx 的账号管理中随时断开任一平台，也可以前往对应平台的“已授权应用/第三方应用”设置中撤销访问。撤销后，我们将停止通过该授权访问数据，并在 30 天内删除对应令牌与关联数据，法律另有要求的除外。</p>
+
+    <h2 id="s5">5. Cookie 与本地存储</h2>
+    <p>我们使用少量 Cookie 与浏览器本地存储维持服务运行：</p>
+    <ul>
+      <li><strong>必需：</strong>登录会话、安全校验、负载均衡；缺少这些内容服务无法正常工作。</li>
+      <li><strong>偏好：</strong>语言、主题、侧栏状态等，保存在 localStorage，可随时清除。</li>
+      <li><strong>统计：</strong>如启用，仅用于汇总访问量与错误率，不用于识别个人或跨站追踪；您可通过浏览器设置或我们的提示选择退出。</li>
+    </ul>
+    <p>我们<strong>不使用广告 Cookie</strong>，也不参与跨站行为广告联盟。您可以通过浏览器设置清除或阻止 Cookie，但这可能影响登录与部分功能。</p>
+
+    <h2 id="s6">6. 共享、委托处理、转让与披露</h2>
+    <p>我们不会出售您的个人信息。仅在下列情形共享：</p>
+    <ul>
+      <li>经您明确同意或由您主动触发，向对应社交平台发送发布请求；</li>
+      <li>向为我们提供云主机、对象存储、邮件、支付、日志等基础设施的服务商共享必要信息，其仅能按我们的指示处理，并受保密与数据处理协议约束；</li>
+      <li>为遵守法律法规、司法或行政机关的合法要求，或为保护用户、公众与我们自身的合法权益；</li>
+      <li>在合并、收购、重组或破产情形下，接收方须继续受本政策约束；如用途发生变更，我们会重新征得您的同意。</li>
+    </ul>
+    <p>我们不会公开披露您的个人信息，除非获得您的同意或法律要求。我们也要求所有受托方采取适当的安全措施，不得将数据用于其自身目的。</p>
+
+    <h2 id="s7">7. 存储地点、安全与保留</h2>
+    <p>您的信息存储于我们及受托服务商使用的云基础设施中，可能位于您所在国家或地区以外。我们通过加密传输、访问控制、日志审计与员工保密义务保护数据安全。互联网传输不存在绝对安全，我们会持续评估并改进防护措施。</p>
+    <p>若发生个人信息泄露事件，我们将按适用法律的要求评估风险，并在必要时通知您与监管机构。</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>数据类别</th><th>保留期限</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>账户资料</td><td>账户存续期间；注销后 30 天内删除</td></tr>
+          <tr><td>OAuth 令牌</td><td>授权有效期内；撤销或过期后 30 天内删除</td></tr>
+          <tr><td>发布内容与排期</td><td>您删除后 30 天内从生产环境删除；备份最长 90 天</td></tr>
+          <tr><td>运行日志</td><td>180 天，安全事件或法律要求除外</td></tr>
+          <tr><td>账单与税务记录</td><td>适用法律要求的期限（如 5 年）</td></tr>
+          <tr><td>客服记录</td><td>3 年，用于争议处理与服务质量改进</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>期限届满后，我们将删除或匿名化处理相关信息。若删除在技术上暂时无法实现（例如备份介质），我们会隔离存储并在下一次备份轮换时删除。</p>
+
+    <h2 id="s8">8. 您的权利</h2>
+    <p>在适用法律范围内，您有权：</p>
+    <ul>
+      <li><strong>访问与获取副本：</strong>了解我们持有哪些关于您的信息；</li>
+      <li><strong>更正与补充：</strong>修正不准确或不完整的信息；</li>
+      <li><strong>删除：</strong>在法定情形下要求删除；</li>
+      <li><strong>撤回同意：</strong>随时撤回基于同意的处理；</li>
+      <li><strong>限制或反对处理：</strong>在特定情形下要求限制或反对某些处理；</li>
+      <li><strong>数据可携带：</strong>以结构化、常用格式获取您提供的信息；</li>
+      <li><strong>注销账户：</strong>通过账号管理或邮件申请；</li>
+      <li><strong>投诉：</strong>向您所在地的数据保护监管机构投诉。</li>
+    </ul>
+    <p>请发送邮件至 <a href="mailto:matrix@matrixhubx.com">matrix@matrixhubx.com</a>。为保护您的信息，我们可能需要先核验身份。我们将在 30 天内回复；如请求复杂或数量较多，可延长 30 天并通知您。法律另有更短期限的，从其规定。</p>
+    <p><strong>地区补充：</strong>如您位于欧洲经济区或英国，您有权向当地监管机构投诉，并可要求了解我们向第三国传输数据的保障措施。如您位于加利福尼亚州，我们不会出售或共享您的个人信息用于跨情境行为广告，您享有知情、删除、更正与不因行使权利而受歧视的权利。</p>
+
+    <h2 id="s9">9. 未成年人</h2>
+    <p>本服务面向企业与成年创作者，不面向 16 岁以下未成年人。我们不会有意收集未成年人的个人信息。若我们发现误收集了未成年人信息，将尽快删除。监护人如发现相关情况，请联系 <a href="mailto:matrix@matrixhubx.com">matrix@matrixhubx.com</a>。</p>
+
+    <h2 id="s10">10. 国际传输</h2>
+    <p>由于我们的服务商可能位于不同国家或地区，您的信息可能被传输至您所在地以外的地方处理。我们会采取合同、访问控制与安全评估等适当保障措施，确保传输后的信息仍受本政策保护。如适用法律要求，我们会使用标准合同条款或其他认可的传输机制。</p>
+
+    <h2 id="s11">11. 政策更新</h2>
+    <p>当我们的服务、数据处理方式或法律要求发生变化时，我们可能更新本政策。重大变更将通过页面公告或电子邮件通知您，并更新顶部的“最后更新”日期。未经您明确同意，我们不会削减您依据本政策享有的权利。建议您定期查看本页面。</p>
+
+    <h2 id="s12">12. 联系我们</h2>
+    <p>如您对本政策有任何疑问、意见、投诉或数据请求，请联系：</p>
+    <ul>
+      <li>电子邮箱：<a href="mailto:matrix@matrixhubx.com">matrix@matrixhubx.com</a></li>
+      <li>官方网站：<a href="https://matrixhubx.com" rel="noopener">https://matrixhubx.com</a></li>
+      <li>响应时限：核验身份后 30 天内</li>
+      <li>适用产品：MatrixHubx 矩阵内容中台</li>
+    </ul>
+    <p>如您对我们的回复不满意，您也可以向所在地的数据保护监管机构投诉。</p>
+
+    <h2 id="s13">13. 附录：平台与权限清单</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>平台</th><th>典型权限 / 数据</th><th>对应章节</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>TikTok</td><td><code>user.info.basic</code>、<code>user.info.profile</code>、<code>user.info.stats</code>、<code>video.list</code>、<code>video.publish</code>、<code>video.upload</code></td><td>4.2</td></tr>
+          <tr><td>Google / YouTube</td><td><code>userinfo.profile</code>、<code>userinfo.email</code>、<code>youtube.upload</code>、<code>youtube.readonly</code></td><td>4.3</td></tr>
+          <tr><td>Meta（Facebook / Instagram / Threads）</td><td><code>pages_manage_posts</code>、<code>instagram_content_publish</code>、<code>threads_content_publish</code></td><td>4.4</td></tr>
+          <tr><td>X</td><td><code>tweet.write</code>、<code>media.write</code>、<code>offline.access</code></td><td>4.5</td></tr>
+          <tr><td>LinkedIn</td><td><code>w_member_social</code>、<code>w_organization_social</code></td><td>4.5</td></tr>
+          <tr><td>Pinterest</td><td><code>pins:write</code>、<code>boards:read</code></td><td>4.5</td></tr>
+          <tr><td>Reddit</td><td><code>submit</code>、<code>read</code></td><td>4.5</td></tr>
+          <tr><td>Telegram</td><td>Bot 管理权限</td><td>4.5</td></tr>
+          <tr><td>Bluesky</td><td><code>app.bsky.feed.post</code> 写入</td><td>4.5</td></tr>
+          <tr><td>TikTok Shop</td><td>商品、订单与履约权限</td><td>4.5</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>权限名称可能随平台更新而变化，实际以授权页面展示为准。若您对某项权限有疑问，可在授权前联系我们。</p>
+  </main>
+</div>
+
+<footer>
+  <span>© 2026 MatrixHubx · 矩阵内容中台 · matrixhubx.com</span>
+  <nav aria-label="页脚导航">
+    <a href="./">隐私政策</a>
+    <a href="terms.html">服务条款</a>
+    <a href="privacy-en.html" hreflang="en" lang="en">English</a>
+    <a href="https://matrixhubx.com" rel="noopener">官网</a>
+    <a href="mailto:matrix@matrixhubx.com">matrix@matrixhubx.com</a>
+  </nav>
+</footer>
+<script src="assets/policy.js"></script>
 </body>
 </html>
