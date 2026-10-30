@@ -8,10 +8,12 @@
 
 | 语言 | 隐私政策 | 服务条款 |
 | --- | --- | --- |
-| 中文 | `index.html` → https://joe057267-cmyk.github.io/matrixhub-policy/ | `terms.html` → https://joe057267-cmyk.github.io/matrixhub-policy/terms.html |
-| English | `privacy-en.html` → https://joe057267-cmyk.github.io/matrixhub-policy/privacy-en.html | `terms-en.html` → https://joe057267-cmyk.github.io/matrixhub-policy/terms-en.html |
+| 中文 | https://matrixhubx.com/privacy/ | https://matrixhubx.com/terms/ |
+| English | https://matrixhubx.com/privacy-en/ | https://matrixhubx.com/terms-en/ |
 
-提交 TikTok 开发者审核时填写英文版本链接：Privacy Policy 用 `privacy-en.html`，Terms of Service 用 `terms-en.html`。
+官方地址为 `matrixhubx.com`。本仓库的 GitHub Pages 副本（`joe057267-cmyk.github.io/matrixhub-policy/`）仅作源文件托管与对照，四个页面均以 `matrixhubx.com` 为 canonical，搜索引擎只收录官方域名。
+
+提交 TikTok 开发者审核时填写英文版本链接：Privacy Policy 用 `https://matrixhubx.com/privacy-en/`，Terms of Service 用 `https://matrixhubx.com/terms-en/`。
 
 ## 内容要点
 
